@@ -19,10 +19,9 @@ For questions about this repository, contact:
 
 This repository contains the data-processing pipeline, analysis scripts, and outputs for a cross-national study of the **nuclear family household** and its relationship to **educational attainment** across roughly 100 countries. Building on the premise that nuclear family living arrangements were historically expected to spread mainly as a by-product of socioeconomic development, the project tests whether this prediction holds empirically.
 
-The analysis draws on two open-access, harmonized household-structure databases built at CED:
+The analysis draws on the open-access Global Living Arrangements Database  built at CED:
 
-- **CoDB — Coresidence Database** (Esteve et al., *Scientific Data*, 2024)
-- **GLAD — Global Living Arrangements Database** (Galeano et al., *Scientific Data*, 2025)
+- **GLAD — Global Living Arrangements Database** [Galeano et al., *Scientific Data*, 2025](https://www.nature.com/articles/s41597-025-05787-y)
 
 both of which are derived from IPUMS International census and survey microdata.
 
