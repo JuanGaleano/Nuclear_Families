@@ -17,7 +17,7 @@ For questions about this repository, contact:
 
 ## Overview
 
-This repository contains the data-processing pipeline, analysis scripts, and outputs for a cross-national study of the **nuclear family household** and its relationship to **educational attainment** across roughly 100 countries. Building on the premise that nuclear family living arrangements were historically expected to spread mainly as a by-product of socioeconomic development, the project tests whether this prediction holds empirically once household structure is measured systematically and consistently at scale.
+This repository contains the data-processing pipeline, analysis scripts, and outputs for a cross-national study of the **nuclear family household** and its relationship to **educational attainment** across roughly 100 countries. Building on the premise that nuclear family living arrangements were historically expected to spread mainly as a by-product of socioeconomic development, the project tests whether this prediction holds empirically.
 
 The analysis draws on two open-access, harmonized household-structure databases built at CED:
 
