@@ -5,10 +5,10 @@ Replication repository for the paper:
 > Cherlin, A. J., Galeano, J., Pesando, L., & Esteve, A. *Nuclear Families are Widespread in the Global South, but Not as Social Scientists Predicted.*
 
 **Authors**
-- Andrew J. Cherlin¹ — Department of Sociology, Johns Hopkins University, Baltimore, MD, USA
-- Juan Galeano² — Centre d'Estudis Demogràfics, Universitat Autònoma de Barcelona, Barcelona, Spain
-- Luca Pesando³ — Division of Social Science, New York University Abu Dhabi
-- Albert Esteve² — Centre d'Estudis Demogràfics, Universitat Autònoma de Barcelona, Barcelona, Spain
+- Andrew J. Cherlin — Department of Sociology, Johns Hopkins University, Baltimore, MD, USA
+- Juan Galeano — Centre d'Estudis Demogràfics, Universitat Autònoma de Barcelona, Barcelona, Spain
+- Luca Pesando — Division of Social Science, New York University Abu Dhabi
+- Albert Esteve — Centre d'Estudis Demogràfics, Universitat Autònoma de Barcelona, Barcelona, Spain
 
 ## Contact
 
