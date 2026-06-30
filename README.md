@@ -10,9 +10,10 @@ Replication repository for the paper:
 - Luca Pesando³ — Division of Social Science, New York University Abu Dhabi
 - Albert Esteve² — Centre d'Estudis Demogràfics, Universitat Autònoma de Barcelona, Barcelona, Spain
 
-*Corresponding author: Andrew J. Cherlin (cherlin@jhu.edu)*
+## Contact
 
----
+For questions about this repository, contact:
+- Juan Galeano — jgaleano@ced.uab.es
 
 ## Overview
 
@@ -25,50 +26,20 @@ The analysis draws on two open-access, harmonized household-structure databases 
 
 both of which are derived from IPUMS International census and survey microdata.
 
-## Research Questions
-
-1. How prevalent is nuclear household structure across countries of the Global South relative to predictions from classic modernization and family-change theory?
-2. Is there a consistent **educational gradient** in nuclear family formation — i.e., does the likelihood of living in a nuclear household rise or fall with individual/household educational attainment?
-3. Does this gradient vary systematically by world region, and what does that variation imply about the assumed link between development, education, and family nuclearization?
-
 ## Methods
 
 - Household structure classification (nuclear vs. extended/complex/other) harmonized from IPUMS microdata via CoDB/GLAD.
 - **Educational gradient (G)** measures: differences in nuclearity rates across education groups, including conditional gradient variants (`G_cond`).
 - **Logit-scale transformations** of nuclearity rates to model gradients on a scale appropriate for bounded proportions.
-- **Kitagawa-style decomposition** to separate compositional (education distribution) effects from rate (behavioral) effects.
 - **Population-weighted regional aggregation** across seven world regions.
 - All analysis conducted in **R** (tidyverse-based workflow).
-
-## Repository Structure
-
-```
-.
-├── data/
-│   ├── raw/                # Pointers/scripts to source IPUMS, CoDB, GLAD extracts (not redistributed)
-│   └── processed/          # Harmonized analysis-ready datasets (e.g., gradients_t1_weighted.xlsx)
-├── scripts/
-│   ├── 01_data_prep.R      # Build country/education/household-structure panel
-│   ├── 02_gradients.R      # Compute G and G_cond, logit-scale transforms
-│   ├── 03_decomposition.R  # Kitagawa decomposition
-│   ├── 04_regional_agg.R   # Population-weighted regional aggregation
-│   └── 05_figures_tables.R # Paper figures and tables
-├── output/
-│   ├── tables/
-│   └── figures/
-├── README.md
-└── LICENSE
-```
-
-*(Adjust folder/file names above to match your actual repository contents.)*
-
 ## Data Sources
 
 - **IPUMS International** — [https://international.ipums.org](https://international.ipums.org)
 - **CoDB (Coresidence Database)** — Esteve et al. 2024, *Scientific Data*
 - **GLAD (Global Living Arrangements Database)** — Galeano et al. 2025, *Scientific Data*
 
-Raw IPUMS microdata are not redistributed in this repository in accordance with IPUMS data licensing terms. Scripts to reconstruct the analysis files from a user's own IPUMS extract are provided in `data/raw/`.
+Raw IPUMS microdata are not redistributed in this repository in accordance with IPUMS data licensing terms. Scripts to reconstruct the analysis files from a user's own IPUMS extract are provided.
 
 ## Requirements
 
@@ -99,12 +70,6 @@ and, where relevant, the underlying data sources:
 
 > Esteve, A., et al. (2024). The Coresidence Database (CoDB). *Scientific Data.*
 > Galeano, J., et al. (2025). The Global Living Arrangements Database (GLAD). *Scientific Data.*
-
-## Contact
-
-For questions about this repository, contact:
-- Andrew J. Cherlin — cherlin@jhu.edu
-- Juan Galeano — jgaleano@ced.uab.es
 
 ## License
 
