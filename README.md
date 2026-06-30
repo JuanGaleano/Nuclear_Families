@@ -23,20 +23,22 @@ The analysis draws on the open-access Global Living Arrangements Database  built
 
 - **GLAD — Global Living Arrangements Database** [Galeano et al., *Scientific Data*, 2025](https://www.nature.com/articles/s41597-025-05787-y)
 
-both of which are derived from IPUMS International census and survey microdata.
+which is derived from IPUMS International census and survey microdata and from the EU Labour Fource Survey.
 
 ## Methods
 
-- Household structure classification (nuclear vs. extended/complex/other) harmonized from IPUMS microdata via CoDB/GLAD.
+- Reconstruction of living arragements from an indivudal-based perspective.
 - **Educational gradient (G)** measures: differences in nuclearity rates across education groups, including conditional gradient variants (`G_cond`).
 - **Logit-scale transformations** of nuclearity rates to model gradients on a scale appropriate for bounded proportions.
 - **Population-weighted regional aggregation** across seven world regions.
 - All analysis conducted in **R** (tidyverse-based workflow).
+
 ## Data Sources
 
 - **IPUMS International** — [https://international.ipums.org](https://international.ipums.org)
-- **CoDB (Coresidence Database)** — Esteve et al. 2024, *Scientific Data*
-- **GLAD (Global Living Arrangements Database)** — Galeano et al. 2025, *Scientific Data*
+- **EU-LFS** — [European Labour Force Survey](https://ec.europa.eu/eurostat/web/microdata/collections-research/european-union-labour-force-survey)
+- **GLAD (Global Living Arrangements Database)** — [Galeano et al., *Scientific Data*, 2025](https://www.nature.com/articles/s41597-025-05787-y)
+
 
 Raw IPUMS microdata are not redistributed in this repository in accordance with IPUMS data licensing terms. Scripts to reconstruct the analysis files from a user's own IPUMS extract are provided.
 
