@@ -8,7 +8,7 @@ library(ggrepel)
 options(scipen=999)
 
 # Load GLAD #####
-load("G:\\Shared drives\\CORESIDENCE\\WP2_DATA\\2_4_CORESIDENCE_DATABASE\\CORESIDENCE_GLAD/CORESIDENCE_GLAD_2025.Rda")
+load("CORESIDENCE_GLAD_2025.Rda")
 
 # Extract harmonized dataset IPUMS + EU-LFS #####
 harmo<-GLAD[["HARMONIZED"]]
@@ -548,9 +548,6 @@ cor_check <- wide |>
 
 print(cor_check)
 
-
-
-
 wide <- wide |>
   mutate(country_name = countrycode(country_iso,
                                     origin      = "iso3c",
@@ -575,8 +572,7 @@ ggpi<-ggplot(wide, aes(x = G_cond, y = G_logit, colour = region_group, label = S
 
 # Save ######
 
-ggsave(paste("G:\\Shared drives\\CORESIDENCE\\TEAM FOLDERS\\Juan Galeano\\cherlin\\complexity\\1_plots_article\\",
-             "ANNEX_log_raw_gcond",".png",sep=""), 
+ggsave(paste("FIG2_ANNEX",".png",sep=""), 
        plot=ggpi,
        scale = 1,
        height = 12,
