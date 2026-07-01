@@ -7,7 +7,7 @@ options(scipen=999)
 
 
 # Load GLAD #####
-load("G:\\Shared drives\\CORESIDENCE\\WP2_DATA\\2_4_CORESIDENCE_DATABASE\\CORESIDENCE_GLAD/CORESIDENCE_GLAD_2025.Rda")
+load("CORESIDENCE_GLAD_2025.Rda")
 
 # Extract harmonized dataset IPUMS + EU-LFS #####
 harmo<-GLAD[["HARMONIZED"]]
@@ -525,8 +525,7 @@ ggplot(plot_df, aes(x = region_group, y = weighted_gradient, fill = sign)) +
     plot.title = element_text(face = "bold")
   )
 
-ggsave(paste("G:\\Shared drives\\CORESIDENCE\\TEAM FOLDERS\\Juan Galeano\\cherlin\\complexity\\1_plots_article\\",
-             "FIG_2_GCOND_ANNEX.png",sep=""), 
+ggsave(paste("FIG_2.png",sep=""), 
        scale =1,
        height = 8,
        width=14, 
