@@ -28,7 +28,7 @@ which is derived from IPUMS International census and survey microdata and from t
 ## Methods
 
 - Reconstruction of living arragements from an indivudal-based perspective.
-- **Educational gradient (G)** measures: differences in nuclearity rates across education groups, including conditional gradient variants (`G_cond`).
+- **Educational gradient (G)** measures: differences in nuclearity rates across education groups.
 - **Logit-scale transformations** of nuclearity rates to model gradients on a scale appropriate for bounded proportions.
 - **Population-weighted regional aggregation** across seven world regions.
 - All analysis conducted in **R** (tidyverse-based workflow).
