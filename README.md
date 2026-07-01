@@ -54,7 +54,7 @@ If you use this code or the underlying databases, please cite:
 
 and, where relevant, the underlying data sources:
 
-> (Galeano, J., et al. (2025). The Global Living Arrangements Database (GLAD). *Scientific Data.*)[https://www.nature.com/articles/s41597-025-05787-y]
+> [Galeano, J., et al. (2025). The Global Living Arrangements Database (GLAD). *Scientific Data.*](https://www.nature.com/articles/s41597-025-05787-y)
 
 ## License
 
