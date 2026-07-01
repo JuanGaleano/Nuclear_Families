@@ -6,9 +6,9 @@ Replication repository for the paper:
 
 **Authors**
 - [Andrew J. Cherlin](https://soc.jhu.edu/directory/andrew-j-cherlin/) — Department of Sociology, Johns Hopkins University, Baltimore, MD, USA
-- Juan Galeano — Centre d'Estudis Demogràfics, Universitat Autònoma de Barcelona, Barcelona, Spain
-- Luca Pesando — Division of Social Science, New York University Abu Dhabi
-- Albert Esteve — Centre d'Estudis Demogràfics, Universitat Autònoma de Barcelona, Barcelona, Spain
+- [Juan Galeano](https://ced.cat/en/directori/juan-galeano/) — Centre d'Estudis Demogràfics, Universitat Autònoma de Barcelona, Barcelona, Spain
+- [Luca Pesando](https://www.lucamariapesando.com/) — Division of Social Science, New York University Abu Dhabi
+- [Albert Esteve](https://ced.cat/es/directori/albert-esteve-palos/) — Centre d'Estudis Demogràfics, Universitat Autònoma de Barcelona, Barcelona, Spain
 
 ## Contact
 
