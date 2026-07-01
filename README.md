@@ -17,7 +17,7 @@ For questions about this repository, contact:
 
 ## Overview
 
-This repository contains the data-processing pipeline, analysis scripts, and outputs for a cross-national study of the **nuclear family household** and its relationship to **educational attainment** across roughly 100 countries. Building on the premise that nuclear family living arrangements were historically expected to spread mainly as a by-product of socioeconomic development, the project tests whether this prediction holds empirically.
+This repository contains the data-processing pipeline, analysis scripts, and outputs for a cross-national study of the **nuclear family household** and its relationship to **educational attainment** across roughly 100 countries between 1970 and 2020. Building on the premise that nuclear family living arrangements were historically expected to spread mainly as a by-product of socioeconomic development, the project tests whether this prediction holds empirically.
 
 The analysis draws on the open-access Global Living Arrangements Database  built at CED:
 
@@ -35,31 +35,16 @@ which is derived from IPUMS International census and survey microdata and from t
 
 ## Data Sources
 
+- **GLAD (Global Living Arrangements Database)** — [Download GLAD - CORESIDENCE_GLAD_2025.Rda](https://zenodo.org/records/15655910)
 - **IPUMS International** — [https://international.ipums.org](https://international.ipums.org)
 - **EU-LFS** — [European Labour Force Survey](https://ec.europa.eu/eurostat/web/microdata/collections-research/european-union-labour-force-survey)
-- **GLAD (Global Living Arrangements Database)** — [Galeano et al., *Scientific Data*, 2025](https://www.nature.com/articles/s41597-025-05787-y)
-
 
 Raw IPUMS microdata are not redistributed in this repository in accordance with IPUMS data licensing terms. Scripts to reconstruct the analysis files from a user's own IPUMS extract are provided.
 
 ## Requirements
 
 - R (≥ 4.x)
-- R packages: `tidyverse`, `readxl`, `writexl`, and others as listed in `scripts/00_setup.R`
-
-## Reproducing the Analysis
-
-```r
-# 1. Install dependencies
-source("scripts/00_setup.R")
-
-# 2. Run the pipeline in order
-source("scripts/01_data_prep.R")
-source("scripts/02_gradients.R")
-source("scripts/03_decomposition.R")
-source("scripts/04_regional_agg.R")
-source("scripts/05_figures_tables.R")
-```
+- R packages: `tidyverse`, `readxl`, `writexl`, `haven`,`scales`, `countrycode`, `ggrepel`, `giscoR`.
 
 ## Citation
 
@@ -69,8 +54,7 @@ If you use this code or the underlying databases, please cite:
 
 and, where relevant, the underlying data sources:
 
-> Esteve, A., et al. (2024). The Coresidence Database (CoDB). *Scientific Data.*
-> Galeano, J., et al. (2025). The Global Living Arrangements Database (GLAD). *Scientific Data.*
+> (Galeano, J., et al. (2025). The Global Living Arrangements Database (GLAD). *Scientific Data.*)[https://www.nature.com/articles/s41597-025-05787-y]
 
 ## License
 
