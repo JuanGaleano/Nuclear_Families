@@ -3,7 +3,7 @@ library(giscoR)
 
 # Load GLAD #####
 
-load("G:\\Shared drives\\CORESIDENCE\\WP2_DATA\\2_4_CORESIDENCE_DATABASE\\CORESIDENCE_GLAD/CORESIDENCE_GLAD_2025.Rda")
+load("CORESIDENCE_GLAD_2025.Rda")
 
 # Extract harmonized dataset IPUMS + EU-LFS #####
 harmo<-GLAD[["HARMONIZED"]]
@@ -166,8 +166,7 @@ ggplot(data = map_df) +
   )
 
 # Save image ######
-ggsave(paste("G:\\Shared drives\\CORESIDENCE\\TEAM FOLDERS\\Juan Galeano\\cherlin\\complexity\\1_plots_article\\",
-             "FIG_1",".png",sep=""), 
+ggsave(paste("FIG_1",".png",sep=""), 
        #  plot=b,
        scale = 1,
        height = 6.5,
