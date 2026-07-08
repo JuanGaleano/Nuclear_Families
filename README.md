@@ -2,7 +2,7 @@
 
 Replication repository for the paper:
 
-> Cherlin, A. J., Galeano, J., Pesando, L., & Esteve, A. *Nuclear Families are Widespread in the Global South, but Not as Social Scientists Predicted.*
+> Cherlin, A. J., Galeano, J., Pesando, L., & Esteve, A. *Nuclear Families are Widespread in the Global South, but Not as Social Scientists Anticipated.*
 
 **Authors**
 - [Andrew J. Cherlin](https://soc.jhu.edu/directory/andrew-j-cherlin/) — Department of Sociology, Johns Hopkins University, Baltimore, MD, USA
