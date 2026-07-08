@@ -7,7 +7,7 @@ library(countrycode)
 options(scipen=999)
 
 # Load GLAD #####
-load("G:\\Shared drives\\CORESIDENCE\\WP2_DATA\\2_4_CORESIDENCE_DATABASE\\CORESIDENCE_GLAD/CORESIDENCE_GLAD_2025.Rda")
+load("CORESIDENCE_GLAD_2025.Rda")
 
 # Extract harmonized dataset IPUMS + EU-LFS #####
 harmo<-GLAD[["HARMONIZED"]]
