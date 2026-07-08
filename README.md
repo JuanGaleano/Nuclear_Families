@@ -1,4 +1,4 @@
-# Nuclear Families are Widespread in the Global South, but Not as Social Scientists Predicted
+# Nuclear Families are Widespread in the Global South, but Not as Social Scientists Anticipated
 
 Replication repository for the paper:
 
