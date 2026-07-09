@@ -1,3 +1,5 @@
+#NOTE: to run this script you need first to download the full ipums samples defined in **samples** and save the as Rda files. Also, before saving them you need to filter cases of individual living in private households.
+
 library(tidyverse)
 library(haven)
 library(data.table)
